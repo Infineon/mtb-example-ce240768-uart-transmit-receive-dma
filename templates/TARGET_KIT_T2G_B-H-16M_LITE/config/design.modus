@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.70.0" toolsPackage="ModusToolbox 3.7.0" xmlns="http://cypress.com/xsd/cydesignfile_v7">
+<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.80.0" toolsPackage="ModusToolbox 3.8.0" xmlns="http://cypress.com/xsd/cydesignfile_v7">
     <Devices>
         <Device mpn="CYT6BJ8DDE">
             <BlockConfig>
@@ -747,7 +747,7 @@
                         <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
                         <Param id="sourceClockCsv" value="IMO"/>
-                        <Param id="sourceClockNumber" value="4"/>
+                        <Param id="sourceClockNumber" value="3"/>
                     </Parameters>
                 </Personality>
                 <Personality template="hfclk" version="4.0" instance="burh-Cuzxa8">
@@ -824,7 +824,7 @@
                         <Param id="actionCsv" value="FAULT"/>
                         <Param id="divider" value="1"/>
                         <Param id="sourceClockCsv" value="IMO"/>
-                        <Param id="sourceClockNumber" value="0"/>
+                        <Param id="sourceClockNumber" value="5"/>
                     </Parameters>
                 </Personality>
                 <Personality template="ilo" version="3.0" instance="yljzpq-80ME">
@@ -893,7 +893,7 @@
                 <Personality template="pathmux" version="3.0" instance="XmVe3Fhs-qw">
                     <Block location="srss[0].clock[0].pathmux[5]" locked="true"/>
                     <Parameters>
-                        <Param id="sourceClock" value="imo"/>
+                        <Param id="sourceClock" value="ilo0"/>
                     </Parameters>
                 </Personality>
                 <Personality template="pathmux" version="3.0" instance="tDee7aDBFmU">
@@ -905,7 +905,7 @@
                 <Personality template="periclk" version="2.0" instance="KBIDh08zG1M">
                     <Block location="srss[0].clock[0].periclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="divider" value="1"/>
+                        <Param id="divider" value="2"/>
                     </Parameters>
                 </Personality>
                 <Personality template="mxs40pll400" version="1.0" instance="argT-O4XgW0">
@@ -919,7 +919,7 @@
                     <Block location="srss[0].clock[0].pll400m[1]" locked="true"/>
                     <Parameters>
                         <Param id="configuration" value="auto"/>
-                        <Param id="desiredFrequency" value="125.000"/>
+                        <Param id="desiredFrequency" value="123.000"/>
                     </Parameters>
                 </Personality>
                 <Personality template="pll" version="3.0" instance="ND-8eqvHjTw">
@@ -943,7 +943,7 @@
                 <Personality template="slowclk" version="2.0" instance="nRf5atIOCHY">
                     <Block location="srss[0].clock[0].slowclk[0]" locked="true"/>
                     <Parameters>
-                        <Param id="divider" value="1"/>
+                        <Param id="divider" value="2"/>
                     </Parameters>
                 </Personality>
                 <Personality template="timerclk" version="3.0" instance="zLbtDtLNsOY">
